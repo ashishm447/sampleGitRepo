@@ -11,8 +11,8 @@ public class SampleDTO implements java.io.Serializable {
     public SampleDTO() {
     }
     
-    public static void main(String[] args){
-		System.out.println("Sample DTO Done");
+    public String call(){
+		return "Sample DTO Done";
 	}
 
 }
